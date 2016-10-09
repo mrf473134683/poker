@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	background: url(../images/bg_pattern.gif);
+}
+
+.start_box{
+	width: 600px;
+	height: 395px;
+	background: url(../images/sbg.jpg);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+.start_box .start{
+	width: 130px;
+	height: 50px;
+	position: absolute; 
+	left: 225px;
+	bottom: 45px;
+	cursor: pointer;
+}
+.scene{
+	width: 1080px;
+	height: 600px;
+	margin: 30px auto;
+	position: relative;
+}
+.pai{
+	float: left;
+	width: 120px;
+	height: 168px;
+	border: 1px solid #000;
+	background-size: 100%;
+	border-radius: 5px;
+	position: absolute;
+	top: 50px;
+	left: 550px;
+	opacity: 0;
+	cursor: pointer;
+}
+.scene .move-right,.move-left{
+	width: 40px;
+	height: 40px;
+	background: url(../images/move.png) no-repeat center center;
+	border-radius: 5px;
+	position: absolute;
+	left: 580px;
+	bottom: 60px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 32px;
+	color: #e5e5e5;
+	line-height: 40px;
+	font-weight: bold;
+	z-index: 9999;
+}
+.scene .move-right{
+	left: 637px;
+}
+.scene .anbox{
+	width: 130px;
+	height: 350px;
+	position: absolute;
+	left: 0;
+	top: 120px;
+}
+.anbox .replay,.instruction,.set{
+	width: 120px;
+	height: 50px;
+    border-radius: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+.anbox .instruction{
+	top: 120px;
+}
+.anbox .set{
+	top: 240px;
+}
+
+.rule{
+	width: 600px;
+	height: 420px;
+	background: url(../images/jieshao.png);
+	background-size: cover;
+	position: absolute;
+	top: -500px;
+	left: 400px;
+	z-index: 100;
+}
+.close{
+	position: absolute;
+	right: 0px;
+	top: 83px;
+	width: 26px;
+	height: 26px;
+	background-color: #261130;
+	text-align: center;
+	color: #E3E3E3;
+	font-size: 22px;
+	cursor: pointer;
+}
+.close:hover{
+	background: #4A3059;
+}
